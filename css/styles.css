@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36,36,36);
+    width: 100%;
+    height: 100vh;
+    
+}
+#caxão{
+    background-color: rgb(65, 4, 100);
+    width: 25%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 15px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+.butão{
+    color: rgb(130, 15, 253);
+    background-color: rgb(36,36, 36);
+    width: 63px;
+    height: 63px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 30px;
+    border-color: rgb(130, 15, 253);
+}
+.butão:hover{
+
+    box-shadow: 0 0 5px rgb(130, 15, 253)
+}
+.butãoD:hover{
+
+    box-shadow: 0 5 5px rgb(130, 15, 253)
+}
+
+
+.butãoD{
+    color: rgb(130, 15, 253);
+    background-color: rgb(36, 36, 36);
+    width: 63px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 30px;
+    border-color: rgb(109, 13, 211);
+}
+#display{
+    width: 80%;
+    height:12vh ;
+    margin-top: 5vh;
+    margin-bottom: 2vh; 
+    border-radius: 5px;
+    border: 10px;
+    color: black ;
+    font-size: 30px;
+    background-color:whitesmoke ;
+    
+}
+
+
+
+

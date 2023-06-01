@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div id="caxão">
+        <input type="text" id="display" disabled />
+
+        <button class="butão" onclick="digitar(0)">0</button>
+        <button class="butão" onclick="definirOperacao('+')">+</button>
+        <button class="butão" onclick="definirOperacao('-')">-</button>
+        <button class="butão" onclick="definirOperacao('x')">x</button>
+        <button class="butão" onclick="digitar(1)">1</button>
+        <button class="butão" onclick="digitar(2)">2</button>
+        <button class="butão" onclick="digitar(3)">3</button>
+        <button class="butão" onclick="definirOperacao(':')">:</button>
+        <button class="butão" onclick="digitar(4)">4</button>
+        <button class="butão" onclick="digitar(5)">5</button>
+        <button class="butão" onclick="digitar(6)">6</button>
+        <button class="butão" onclick="apagar(0)">C</button>
+        <button class="butão" onclick="digitar(7)">7</button>
+        <button class="butão" onclick="digitar(8)">8</button>
+        <button class="butão" onclick="digitar(9)">9</button>
+
+        <button class="butãoD" onclick="calcular('=')">=</button>
+      </div>
+    </section>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
